@@ -2,6 +2,11 @@
 
 # Case Técnico: Ingestão e Governança de Dados - Dadosfera
 
+## 🎥 Apresentação em Vídeo
+Confira a demonstração completa da solução, desde a ingestão dos dados na AWS até a criação dos dashboards na Dadosfera:
+
+👉 [Assista ao vídeo de apresentação do Case aqui](https://youtu.be/HUewzQXcApM)
+
 ## 1. Introdução
 Este projeto apresenta a solução para o case técnico de ingestão, catalogação e análise de dados utilizando a plataforma **Dadosfera** e infraestrutura **AWS**. O objetivo foi processar uma volumetria de +250k registros, garantindo a integridade e a disponibilidade dos dados para análise de negócio.
 
