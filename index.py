@@ -2,13 +2,13 @@ import pandas as pd
 from sqlalchemy import create_engine
 import time
 
-# --- CONFIGURAÇÕES ---
+# --- configs ---
 USER = 'admin'
 PASS = 'Dadosfera123'
 HOST = 'dadosfera-bernardodb.cdce84egka8x.us-east-2.rds.amazonaws.com'
 PORT = '3306'
 DB_NAME = 'dadosfera_case'
-ARQUIVO_CSV = 'products.csv' # Ex: 'customers.csv'
+ARQUIVO_CSV = 'products.csv' 
 TABELA_DESTINO = 'products'
 
 # creating connection engine
@@ -17,7 +17,7 @@ engine = create_engine(f'mysql+pymysql://{USER}:{PASS}@{HOST}:{PORT}/{DB_NAME}')
 print(f"🚀 Iniciando leitura do arquivo: {ARQUIVO_CSV}")
 start_time = time.time()
 
-# Reading in (chunks) to avoid overloading the RAM.
+# rreading in (chunks) to avoid overloading the RAM.
 chunk_size = 20000 
 batch_no = 1
 
